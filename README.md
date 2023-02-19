@@ -1,2 +1,2 @@
 # png-to-ascii
-Python png to ascii 
+In this code, we use the Python Imaging Library (PIL) to open and manipulate the PNG image. We first resize the image to the desired width and height, convert it to grayscale, and get the pixel values. We then map each pixel to an ASCII character based on its brightness, and finally print the resulting ASCII art. You can adjust the ASCII_WIDTH and ASCII_HEIGHT variables to set the size of the ASCII art, and modify the ascii_chars list to change the set of characters used to create the art.
